@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5F75A513-027C-4F64-8BC0-C9C5844BF52D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1246D93D-9D51-4FB4-B45F-DA7218D34FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{2D0FD49C-67DD-4CB1-A425-B8D0904860EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{A0A17ECF-E84E-4F8B-85A5-13A42D8E463A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1246D93D-9D51-4FB4-B45F-DA7218D34FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1246D93D-9D51-4FB4-B45F-DA7218D34FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1246D93D-9D51-4FB4-B45F-DA7218D34FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0FD49C-67DD-4CB1-A425-B8D0904860EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0FD49C-67DD-4CB1-A425-B8D0904860EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0FD49C-67DD-4CB1-A425-B8D0904860EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0FD49C-67DD-4CB1-A425-B8D0904860EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A17ECF-E84E-4F8B-85A5-13A42D8E463A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A17ECF-E84E-4F8B-85A5-13A42D8E463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A17ECF-E84E-4F8B-85A5-13A42D8E463A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A17ECF-E84E-4F8B-85A5-13A42D8E463A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
